@@ -4,8 +4,8 @@
   yum: name={{ item }} state=present
   with_items: "{{ rh.packages_depends }}"
 
-- name: Stop Firewall and Diable it
-  service: name=firewalld state=stopped enabled=no
+#- name: Stop Firewall and Diable it
+#  service: name=firewalld state=stopped enabled=no
 
 - name: Diable SELinux policy
   selinux: state=disabled
