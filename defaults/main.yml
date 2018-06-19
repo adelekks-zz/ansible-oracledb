@@ -12,8 +12,7 @@ oracle_archives_files_02: 'linuxamd64_12102_database_2of2.zip'
 oracle_archives_files:
   - 'linuxamd64_12102_database_1of2.zip'
   - 'linuxamd64_12102_database_2of2.zip'
-#oracle_archives_files_url: 'http://192.168.5.7/{{ oracle_archives_files }}'
-oracle_archives_files_url: 'http://192.168.5.7'
+oracle_archives_files_url: 'http://70-246-73-131'
 
 oracle_server_hostname: "{{ ansible_hostname }}"
 oracle_db_name: 'oradb'
